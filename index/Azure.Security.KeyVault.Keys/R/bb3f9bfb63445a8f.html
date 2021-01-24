@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html><head><title>KeyOperation</title><link rel="stylesheet" href="../../styles.css"/><script src="../../scripts.js"></script></head><body onload="ro();">
+<div class="rH">85 references to KeyOperation</div><div class="rA">Azure.Search.Documents.Tests (2)</div><div class="rG" id="Azure.Search.Documents.Tests"><div class="rF"><div class="rN">Samples\Sample06_EncryptedIndex.cs (2)</div>
+<a href="../../Azure.Search.Documents.Tests/Samples/Sample06_EncryptedIndex.cs.html#172"><b>172</b><i>KeyOperation</i>.WrapKey,</a>
+<a href="../../Azure.Search.Documents.Tests/Samples/Sample06_EncryptedIndex.cs.html#173"><b>173</b><i>KeyOperation</i>.UnwrapKey,</a>
+</div>
+</div>
+<div class="rA">Azure.Security.KeyVault.Keys.Tests (83)</div><div class="rG" id="Azure.Security.KeyVault.Keys.Tests"><div class="rF"><div class="rN">AesCryptographyProviderTests.cs (4)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#149"><b>149</b>JsonWebKey key = new JsonWebKey(new[] { <i>KeyOperation</i>.Encrypt, <i>KeyOperation</i>.Decrypt })</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#259"><b>259</b>JsonWebKey key = new JsonWebKey(new[] { <i>KeyOperation</i>.Encrypt, <i>KeyOperation</i>.Decrypt })</a>
+</div>
+<div class="rF"><div class="rN">JsonWebKeyTests.cs (13)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/JsonWebKeyTests.cs.html#30"><b>30</b>CollectionAssert.AreEqual(new[] { <i>KeyOperation</i>.Encrypt, <i>KeyOperation</i>.Decrypt, <i>KeyOperation</i>.WrapKey, <i>KeyOperation</i>.UnwrapKey }, jwk.KeyOps);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/JsonWebKeyTests.cs.html#263"><b>263</b>CollectionAssert.AreEqual(new[] { <i>KeyOperation</i>.Encrypt, <i>KeyOperation</i>.Decrypt, <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify, <i>KeyOperation</i>.WrapKey, <i>KeyOperation</i>.UnwrapKey }, jwk.KeyOps);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/JsonWebKeyTests.cs.html#267"><b>267</b>CollectionAssert.AreEqual(new[] { <i>KeyOperation</i>.Encrypt, <i>KeyOperation</i>.Verify, <i>KeyOperation</i>.WrapKey }, jwk.KeyOps);</a>
+</div>
+<div class="rF"><div class="rN">KeyClientLiveTests.cs (22)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#62"><b>62</b>KeyOperations = { <i>KeyOperation</i>.Verify },</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#277"><b>277</b><i>KeyOperation</i>.Verify,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#284"><b>284</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Verify }, key.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#289"><b>289</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Verify }, key.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#291"><b>291</b>key = await Client.UpdateKeyPropertiesAsync(key.Properties, new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#292"><b>292</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify }, key.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#305"><b>305</b><i>KeyOperation</i>.Verify,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#312"><b>312</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Verify }, ecHsmKey.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#317"><b>317</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Verify }, ecHsmKey.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#319"><b>319</b>ecHsmKey = await Client.UpdateKeyPropertiesAsync(ecHsmKey.Properties, new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#320"><b>320</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify }, ecHsmKey.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#333"><b>333</b><i>KeyOperation</i>.Verify,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#340"><b>340</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Verify }, rsaHsmKey.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#345"><b>345</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Verify }, rsaHsmKey.KeyOperations);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#347"><b>347</b>rsaHsmKey = await Client.UpdateKeyPropertiesAsync(rsaHsmKey.Properties, new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientLiveTests.cs.html#348"><b>348</b>AssertAreEqual(new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify }, rsaHsmKey.KeyOperations);</a>
+</div>
+<div class="rF"><div class="rN">KeyClientTests.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyClientTests.cs.html#39"><b>39</b>var keyOperations = new List&lt;<i>KeyOperation</i>&gt;() { <i>KeyOperation</i>.Sign };</a>
+</div>
+<div class="rF"><div class="rN">KeysEventSourceTests.cs (12)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#91"><b>91</b>Key = new JsonWebKey(new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify })</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#174"><b>174</b><i>KeyOperation</i>[] keyOps = new[]</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#176"><b>176</b><i>KeyOperation</i>.Sign,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#177"><b>177</b><i>KeyOperation</i>.Verify,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#206"><b>206</b><i>KeyOperation</i>[] keyOps = new[]</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#208"><b>208</b><i>KeyOperation</i>.Encrypt,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#209"><b>209</b><i>KeyOperation</i>.Decrypt,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#210"><b>210</b><i>KeyOperation</i>.Sign,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#211"><b>211</b><i>KeyOperation</i>.Verify,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#212"><b>212</b><i>KeyOperation</i>.WrapKey,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#213"><b>213</b><i>KeyOperation</i>.UnwrapKey,</a>
+</div>
+<div class="rF"><div class="rN">KeyUtilities.cs (6)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#14"><b>14</b>public static JsonWebKey CreateKey(SignatureAlgorithm algorithm, bool includePrivateParameters = false, IEnumerable&lt;<i>KeyOperation</i>&gt; keyOps = null)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#55"><b>55</b>public static JsonWebKey CreateKey(KeyWrapAlgorithm algorithm, bool includePrivateParameters = false, IEnumerable&lt;<i>KeyOperation</i>&gt; keyOps = null)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#74"><b>74</b>public static JsonWebKey CreateAesKey(int sizeInBytes, IEnumerable&lt;<i>KeyOperation</i>&gt; keyOps = null)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#80"><b>80</b>return new JsonWebKey(keyOps ?? new[] { <i>KeyOperation</i>.WrapKey, <i>KeyOperation</i>.UnwrapKey })</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#87"><b>87</b>public static JsonWebKey CreateRsaKey(bool includePrivateParameters = false, IEnumerable&lt;<i>KeyOperation</i>&gt; keyOps = null)</a>
+</div>
+<div class="rF"><div class="rN">LocalCryptographyClientTests.cs (21)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#66"><b>66</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#84"><b>84</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#102"><b>102</b>JsonWebKey jwk = CreateKey(KeyType.Rsa, keyOps: new[] { <i>KeyOperation</i>.Encrypt, <i>KeyOperation</i>.Decrypt });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#130"><b>130</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#148"><b>148</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#166"><b>166</b>JsonWebKey jwk = KeyUtilities.CreateKey(algorithm, keyOps: new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#191"><b>191</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#209"><b>209</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#227"><b>227</b>JsonWebKey jwk = KeyUtilities.CreateKey(algorithm, keyOps: new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#250"><b>250</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#268"><b>268</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#286"><b>286</b>JsonWebKey jwk = KeyUtilities.CreateKey(algorithm, keyOps: new[] { <i>KeyOperation</i>.Sign, <i>KeyOperation</i>.Verify });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#309"><b>309</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#327"><b>327</b>JsonWebKey jwk = new JsonWebKey(RSA.Create(), keyOps: Array.Empty&lt;<i>KeyOperation</i>&gt;());</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#345"><b>345</b>JsonWebKey jwk = CreateKey(KeyType.Rsa, keyOps: new[] { <i>KeyOperation</i>.WrapKey, <i>KeyOperation</i>.UnwrapKey });</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#366"><b>366</b>private static JsonWebKey CreateKey(KeyType type, bool includePrivateParameters = false, IEnumerable&lt;<i>KeyOperation</i>&gt; keyOps = null)</a>
+</div>
+<div class="rF"><div class="rN">ManagedHsmLiveTests.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ManagedHsmLiveTests.cs.html#76"><b>76</b><i>KeyOperation</i>.UnwrapKey,</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ManagedHsmLiveTests.cs.html#77"><b>77</b><i>KeyOperation</i>.WrapKey,</a>
+</div>
+<div class="rF"><div class="rN">ThrowingCryptographyProvider.cs (1)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#17"><b>17</b>public bool SupportsOperation(<i>KeyOperation</i> operation) =&gt; true;</a>
+</div>
+</div>
+</body></html>

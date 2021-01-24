@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html><head><title>JobCollections</title><link rel="stylesheet" href="../../styles.css"/><script src="../../scripts.js"></script></head><body onload="ro();">
+<div class="rH">Implemented interface member:</div><a href="/Microsoft.Azure.Management.Scheduler/A.html#9c8e98be71b8924f" target="s"><div class="resultItem" onClick="resultClick(this);"><div class="resultLine"><img src="/content/icons/102.png" height="16" width="16" /><div class="resultKind">property</div><div class="resultName">JobCollections</div></div>
+<div class="resultDescription">Microsoft.Azure.Management.Scheduler.ISchedulerManagementClient.JobCollections</div>
+</div></a>
+<div class="rH">1 write to JobCollections</div><div class="rA">Microsoft.Azure.Management.Scheduler (1)</div><div class="rG" id="Microsoft.Azure.Management.Scheduler"><div class="rF"><div class="rN">Generated\SchedulerManagementClient.cs (1)</div>
+<a href="../Generated/SchedulerManagementClient.cs.html#261"><b>261</b>this.<i>JobCollections</i> = new JobCollectionsOperations(this);</a>
+</div>
+</div>
+<div class="rH">31 references to JobCollections</div><div class="rA">Scheduler.Test (31)</div><div class="rG" id="Scheduler.Test"><div class="rF"><div class="rN">InMemoryTests\JobCollectionTests.InMemory.cs (30)</div>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#55"><b>55</b>var result = client.<i>JobCollections</i>.Get(&quot;foo&quot;, &quot;jc1&quot;);</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#105"><b>105</b>var result = createClient.<i>JobCollections</i>.CreateOrUpdate(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#149"><b>149</b>deleteClient.<i>JobCollections</i>.Delete(&quot;foo&quot;, &quot;jc1&quot;);</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#182"><b>182</b>var createResult = createClient.<i>JobCollections</i>.CreateOrUpdate(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#237"><b>237</b>var patchResult = patchClient.<i>JobCollections</i>.Patch(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#275"><b>275</b>deleteClient.<i>JobCollections</i>.Delete(&quot;foo&quot;, &quot;jc1&quot;);</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#331"><b>331</b>var result = client.<i>JobCollections</i>.ListByResourceGroup(&quot;foo&quot;);</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#417"><b>417</b>var result = client.<i>JobCollections</i>.ListBySubscription();</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#461"><b>461</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.CreateOrUpdate(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#488"><b>488</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.CreateOrUpdate(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#515"><b>515</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.CreateOrUpdate(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#520"><b>520</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.CreateOrUpdate(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#555"><b>555</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Patch(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#576"><b>576</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Patch(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#597"><b>597</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Patch(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#602"><b>602</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.Patch(</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#631"><b>631</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Delete(resourceGroupName: null, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#632"><b>632</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Delete(resourceGroupName: &quot;foo&quot;, jobCollectionName: null));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#633"><b>633</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.Delete(resourceGroupName: &quot;foo&quot;, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#643"><b>643</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Disable(resourceGroupName: null, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#644"><b>644</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Disable(resourceGroupName: &quot;foo&quot;, jobCollectionName: null));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#645"><b>645</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.Disable(resourceGroupName: &quot;foo&quot;, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#655"><b>655</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Enable(resourceGroupName: null, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#656"><b>656</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Enable(resourceGroupName: &quot;foo&quot;, jobCollectionName: null));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#657"><b>657</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.Enable(resourceGroupName: &quot;foo&quot;, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#667"><b>667</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Get(resourceGroupName: null, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#668"><b>668</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.Get(resourceGroupName: &quot;foo&quot;, jobCollectionName: null));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#669"><b>669</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.Get(resourceGroupName: &quot;foo&quot;, jobCollectionName: &quot;bar&quot;));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#679"><b>679</b>Assert.Throws&lt;ValidationException&gt;(() =&gt; client.<i>JobCollections</i>.ListByResourceGroup(resourceGroupName: null));</a>
+<a href="../../Scheduler.Test/InMemoryTests/JobCollectionTests.InMemory.cs.html#680"><b>680</b>Assert.Throws&lt;CloudException&gt;(() =&gt; client.<i>JobCollections</i>.ListByResourceGroup(resourceGroupName: &quot;foo&quot;));</a>
+</div>
+<div class="rF"><div class="rN">ScenarioTests\JobTests.Scenario.cs (1)</div>
+<a href="../../Scheduler.Test/ScenarioTests/JobTests.Scenario.cs.html#1688"><b>1688</b>client.<i>JobCollections</i>.CreateOrUpdate(</a>
+</div>
+</div>
+</body></html>

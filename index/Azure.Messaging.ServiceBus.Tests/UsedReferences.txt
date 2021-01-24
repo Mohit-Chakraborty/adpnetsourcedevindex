@@ -1,0 +1,4 @@
+Azure.Messaging.ServiceBus
+Azure.Core.TestFramework
+mscorlib
+System.ValueTuple

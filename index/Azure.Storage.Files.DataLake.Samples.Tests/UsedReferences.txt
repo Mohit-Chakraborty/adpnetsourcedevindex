@@ -1,0 +1,6 @@
+Azure.Core
+Azure.Core.TestFramework
+Azure.Storage.Common
+Azure.Storage.Files.DataLake
+Azure.Identity
+System.ValueTuple

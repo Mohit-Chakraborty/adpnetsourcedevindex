@@ -1,0 +1,2 @@
+Azure.Analytics.Synapse.Spark
+Azure.Core.TestFramework

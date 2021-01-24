@@ -1,0 +1,9 @@
+Azure.Core
+Azure.Storage.Queues
+Azure.Core.TestFramework
+Azure.Storage.Common
+Azure.Security.KeyVault.Keys
+System.Memory.Data
+Azure.Identity
+System.ValueTuple
+Microsoft.Azure.KeyVault.Core

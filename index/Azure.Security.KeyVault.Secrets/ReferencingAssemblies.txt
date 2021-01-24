@@ -1,0 +1,3 @@
+Azure.Security.KeyVault.Keys.Tests
+Azure.Security.KeyVault.Secrets.Tests
+Microsoft.Extensions.Azure.Samples

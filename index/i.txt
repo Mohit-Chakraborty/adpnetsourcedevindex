@@ -1,0 +1,7 @@
+﻿ProjectCount=618
+DocumentCount=36,352
+LinesOfCode=6,209,718
+BytesOfCode=283,461,700
+DeclaredSymbols=281,614
+DeclaredTypes=34,069
+PublicTypes=27,015

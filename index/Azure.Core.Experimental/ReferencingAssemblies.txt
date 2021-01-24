@@ -1,0 +1,3 @@
+Azure.Core.Experimental.Performance
+Azure.Core.Experimental.Tests
+Azure.Messaging.ServiceBus.Tests

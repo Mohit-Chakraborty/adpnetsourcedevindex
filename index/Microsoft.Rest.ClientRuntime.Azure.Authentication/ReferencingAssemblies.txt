@@ -1,0 +1,6 @@
+Az.Auth.FullDesktop.Tests
+Az.Auth.Net452.Tests
+Az.Auth.NetCore.Tests
+AzureStackHCI.Tests
+Microsoft.Azure.HDInsight.Job.Tests
+TestFramework.Net45Tests

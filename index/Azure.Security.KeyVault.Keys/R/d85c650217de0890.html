@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html><head><title>DecryptOptions</title><link rel="stylesheet" href="../../styles.css"/><script src="../../scripts.js"></script></head><body onload="ro();">
+<div class="rH">33 references to DecryptOptions</div><div class="rA">Azure.Security.KeyVault.Keys.Tests (33)</div><div class="rG" id="Azure.Security.KeyVault.Keys.Tests"><div class="rF"><div class="rN">AesCryptographyProviderTests.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#242"><b>242</b><i>DecryptOptions</i> decryptOptions = algorithm.IsAesGcm() ?</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#274"><b>274</b><i>DecryptOptions</i> decryptOptions = new DecryptOptions(algorithm, encrypted.Ciphertext, encrypted.Iv);</a>
+</div>
+<div class="rF"><div class="rN">CryptographyModelFactoryTests.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#20"><b>20</b><i>DecryptOptions</i> options = CryptographyModelFactory.DecryptOptions(EncryptionAlgorithm.A128Cbc, buffer, null, null);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#33"><b>33</b><i>DecryptOptions</i> options = CryptographyModelFactory.DecryptOptions(EncryptionAlgorithm.A128Cbc, buffer, buffer, buffer);</a>
+</div>
+<div class="rF"><div class="rN">DecryptOptionsTests.cs (27)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#15"><b>15</b>ArgumentNullException ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.Rsa15Options(null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#18"><b>18</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.RsaOaepOptions(null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#21"><b>21</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.RsaOaep256Options(null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#28"><b>28</b>ArgumentNullException ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128GcmOptions(null, null, null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#31"><b>31</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128GcmOptions(Array.Empty&lt;byte&gt;(), null, null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#34"><b>34</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128GcmOptions(Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#37"><b>37</b>Assert.DoesNotThrow(() =&gt; <i>DecryptOptions</i>.A128GcmOptions(Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#39"><b>39</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192GcmOptions(null, null, null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#42"><b>42</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192GcmOptions(Array.Empty&lt;byte&gt;(), null, null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#45"><b>45</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192GcmOptions(Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#48"><b>48</b>Assert.DoesNotThrow(() =&gt; <i>DecryptOptions</i>.A192GcmOptions(Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#50"><b>50</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256GcmOptions(null, null, null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#53"><b>53</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256GcmOptions(Array.Empty&lt;byte&gt;(), null, null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#56"><b>56</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256GcmOptions(Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#59"><b>59</b>Assert.DoesNotThrow(() =&gt; <i>DecryptOptions</i>.A256GcmOptions(Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#65"><b>65</b>ArgumentNullException ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128CbcOptions(null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#68"><b>68</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128CbcOptions(Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#71"><b>71</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192CbcOptions(null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#74"><b>74</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192CbcOptions(Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#77"><b>77</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256CbcOptions(null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#80"><b>80</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256CbcOptions(Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#83"><b>83</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128CbcPadOptions(null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#86"><b>86</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A128CbcPadOptions(Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#89"><b>89</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192CbcPadOptions(null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#92"><b>92</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A192CbcPadOptions(Array.Empty&lt;byte&gt;(), null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#95"><b>95</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256CbcPadOptions(null, null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/DecryptOptionsTests.cs.html#98"><b>98</b>ex = Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; <i>DecryptOptions</i>.A256CbcPadOptions(Array.Empty&lt;byte&gt;(), null));</a>
+</div>
+<div class="rF"><div class="rN">ThrowingCryptographyProvider.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#19"><b>19</b>public DecryptResult Decrypt(<i>DecryptOptions</i> options, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#21"><b>21</b>public Task&lt;DecryptResult&gt; DecryptAsync(<i>DecryptOptions</i> options, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+</div>
+</div>
+</body></html>

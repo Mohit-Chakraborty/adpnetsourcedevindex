@@ -1,0 +1,6 @@
+Azure.Storage.Files.Shares
+Azure.Core
+Azure.Core.TestFramework
+Azure.Storage.Common
+System.ValueTuple
+Azure.Identity

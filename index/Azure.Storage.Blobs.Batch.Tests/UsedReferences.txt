@@ -1,0 +1,8 @@
+Azure.Storage.Blobs.Batch
+Azure.Core
+Azure.Core.TestFramework
+Azure.Storage.Common
+System.ValueTuple
+Azure.Identity
+Azure.Storage.Blobs
+Azure.Security.KeyVault.Keys

@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html><head><title>SignatureAlgorithm</title><link rel="stylesheet" href="../../styles.css"/><script src="../../scripts.js"></script></head><body onload="ro();">
+<div class="rH">82 references to SignatureAlgorithm</div><div class="rA">Azure.Security.KeyVault.Keys.Tests (82)</div><div class="rG" id="Azure.Security.KeyVault.Keys.Tests"><div class="rF"><div class="rN">CryptographyClientLiveTests.cs (26)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#90"><b>90</b>public async Task SignVerifyDataRoundTrip([EnumValues]<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#132"><b>132</b>public async Task SignVerifyDataStreamRoundTrip([EnumValues]<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#182"><b>182</b>public async Task LocalSignVerifyRoundTrip([EnumValues(Exclude = new[] { nameof(<i>SignatureAlgorithm</i>.ES256K) })]<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#225"><b>225</b>public async Task LocalSignVerifyRoundTripOnFramework([EnumValues(nameof(<i>SignatureAlgorithm</i>.PS256), nameof(<i>SignatureAlgorithm</i>.PS384), nameof(<i>SignatureAlgorithm</i>.PS512))]<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#259"><b>259</b>public async Task SignLocalVerifyRoundTrip([EnumValues(Exclude = new[] { nameof(<i>SignatureAlgorithm</i>.ES256K) })]<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#302"><b>302</b>public async Task SignLocalVerifyRoundTripFramework([EnumValues(nameof(<i>SignatureAlgorithm</i>.PS256), nameof(<i>SignatureAlgorithm</i>.PS384), nameof(<i>SignatureAlgorithm</i>.PS512))]<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#387"><b>387</b>private async Task&lt;KeyVaultKey&gt; CreateTestKey(<i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#393"><b>393</b>case <i>SignatureAlgorithm</i>.RS256Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#394"><b>394</b>case <i>SignatureAlgorithm</i>.RS384Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#395"><b>395</b>case <i>SignatureAlgorithm</i>.RS512Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#396"><b>396</b>case <i>SignatureAlgorithm</i>.PS256Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#397"><b>397</b>case <i>SignatureAlgorithm</i>.PS384Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#398"><b>398</b>case <i>SignatureAlgorithm</i>.PS512Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#400"><b>400</b>case <i>SignatureAlgorithm</i>.ES256Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#402"><b>402</b>case <i>SignatureAlgorithm</i>.ES256KValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#404"><b>404</b>case <i>SignatureAlgorithm</i>.ES384Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#406"><b>406</b>case <i>SignatureAlgorithm</i>.ES512Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#413"><b>413</b>private async Task&lt;KeyVaultKey&gt; CreateTestKeyWithKeyMaterial(<i>SignatureAlgorithm</i> algorithm)</a>
+</div>
+<div class="rF"><div class="rN">CryptographyClientTests.cs (4)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientTests.cs.html#33"><b>33</b>Assert.ThrowsAsync&lt;ArgumentNullException&gt;(() =&gt; Client.SignDataAsync(<i>SignatureAlgorithm</i>.ES256Value, (byte[])null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientTests.cs.html#34"><b>34</b>Assert.ThrowsAsync&lt;ArgumentNullException&gt;(() =&gt; Client.SignDataAsync(<i>SignatureAlgorithm</i>.ES256Value, (Stream)null));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientTests.cs.html#40"><b>40</b>Assert.ThrowsAsync&lt;ArgumentNullException&gt;(() =&gt; Client.VerifyDataAsync(<i>SignatureAlgorithm</i>.ES256Value, (byte[])null, new byte[0]));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientTests.cs.html#41"><b>41</b>Assert.ThrowsAsync&lt;ArgumentNullException&gt;(() =&gt; Client.VerifyDataAsync(<i>SignatureAlgorithm</i>.ES256Value, (Stream)null, new byte[0]));</a>
+</div>
+<div class="rF"><div class="rN">KeysEventSourceTests.cs (4)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#303"><b>303</b>yield return new TestCaseData(&quot;Sign&quot;, null, new Func&lt;CryptographyClient, string, Task&lt;object&gt;&gt;(async (client, algorithm) =&gt; await client.SignAsync(algorithm ?? <i>SignatureAlgorithm</i>.RS256, s_buffer)));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#304"><b>304</b>yield return new TestCaseData(&quot;SignData&quot;, null, new Func&lt;CryptographyClient, string, Task&lt;object&gt;&gt;(async (client, algorithm) =&gt; await client.SignDataAsync(algorithm ?? <i>SignatureAlgorithm</i>.RS256, s_buffer)))</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#311"><b>311</b>yield return new TestCaseData(&quot;Verify&quot;, &quot;true&quot;, new Func&lt;CryptographyClient, string, Task&lt;object&gt;&gt;(async (client, algorithm) =&gt; await client.VerifyAsync(algorithm ?? <i>SignatureAlgorithm</i>.RS256, s_buffer, s_buffer)));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#312"><b>312</b>yield return new TestCaseData(&quot;VerifyData&quot;, &quot;true&quot;, new Func&lt;CryptographyClient, string, Task&lt;object&gt;&gt;(async (client, algorithm) =&gt; await client.VerifyDataAsync(algorithm ?? <i>SignatureAlgorithm</i>.RS256, s_buffer, s_buffer)))</a>
+</div>
+<div class="rF"><div class="rN">KeyUtilities.cs (11)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#14"><b>14</b>public static JsonWebKey CreateKey(<i>SignatureAlgorithm</i> algorithm, bool includePrivateParameters = false, IEnumerable&lt;KeyOperation&gt; keyOps = null)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#18"><b>18</b>case <i>SignatureAlgorithm</i>.PS256Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#19"><b>19</b>case <i>SignatureAlgorithm</i>.PS384Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#20"><b>20</b>case <i>SignatureAlgorithm</i>.PS512Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#21"><b>21</b>case <i>SignatureAlgorithm</i>.RS256Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#22"><b>22</b>case <i>SignatureAlgorithm</i>.RS384Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#23"><b>23</b>case <i>SignatureAlgorithm</i>.RS512Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#26"><b>26</b>case <i>SignatureAlgorithm</i>.ES256Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#27"><b>27</b>case <i>SignatureAlgorithm</i>.ES256KValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#28"><b>28</b>case <i>SignatureAlgorithm</i>.ES384Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeyUtilities.cs.html#29"><b>29</b>case <i>SignatureAlgorithm</i>.ES512Value:</a>
+</div>
+<div class="rF"><div class="rN">LocalCryptographyClientTests.cs (15)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#164"><b>164</b>public void SignRequiresPrivateKey([EnumValues] <i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#174"><b>174</b>public async Task SignVerifyRoundtrip([EnumValues(Exclude = new[] { nameof(<i>SignatureAlgorithm</i>.PS256), nameof(<i>SignatureAlgorithm</i>.PS384), nameof(<i>SignatureAlgorithm</i>.PS512) })] <i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#225"><b>225</b>public void SignDataRequiresPrivateKey([EnumValues] <i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#234"><b>234</b>public async Task SignDataVerifyDataRoundtrip([EnumValues(Exclude = new[] { nameof(<i>SignatureAlgorithm</i>.PS256), nameof(<i>SignatureAlgorithm</i>.PS384), nameof(<i>SignatureAlgorithm</i>.PS512) })] <i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#284"><b>284</b>public void SignDataStreamRequiresPrivateKey([EnumValues] <i>SignatureAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#293"><b>293</b>public async Task SignDataStreamVerifyDataStreamRoundtrip([EnumValues(Exclude = new[] { nameof(<i>SignatureAlgorithm</i>.PS256), nameof(<i>SignatureAlgorithm</i>.PS384), nameof(<i>SignatureAlgorithm</i>.PS512) })] <i>SignatureAlgorithm</i> algorithm)</a>
+</div>
+<div class="rF"><div class="rN">RsaCryptographyProviderTests.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/RsaCryptographyProviderTests.cs.html#73"><b>73</b>InvalidOperationException ex = Assert.Throws&lt;InvalidOperationException&gt;(() =&gt; provider.Sign(<i>SignatureAlgorithm</i>.PS256, digest, default));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/RsaCryptographyProviderTests.cs.html#94"><b>94</b>InvalidOperationException ex = Assert.Throws&lt;InvalidOperationException&gt;(() =&gt; provider.Sign(<i>SignatureAlgorithm</i>.PS256, digest, default));</a>
+</div>
+<div class="rF"><div class="rN">samples\Sample5_SignVerify.cs (8)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#70"><b>70</b>SignResult rsaSignResult = rsaCryptoClient.Sign(<i>SignatureAlgorithm</i>.RS256, digest);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#73"><b>73</b>SignResult ecSignResult = ecCryptoClient.Sign(<i>SignatureAlgorithm</i>.ES256K, digest);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#78"><b>78</b>VerifyResult rsaVerifyResult = rsaCryptoClient.Verify(<i>SignatureAlgorithm</i>.RS256, digest, rsaSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#81"><b>81</b>VerifyResult ecVerifyResult = ecCryptoClient.Verify(<i>SignatureAlgorithm</i>.ES256K, digest, ecSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#86"><b>86</b>SignResult rsaSignDataResult = rsaCryptoClient.SignData(<i>SignatureAlgorithm</i>.RS256, data);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#89"><b>89</b>SignResult ecSignDataResult = ecCryptoClient.SignData(<i>SignatureAlgorithm</i>.ES256K, data);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#94"><b>94</b>VerifyResult rsaVerifyDataResult = rsaCryptoClient.VerifyData(<i>SignatureAlgorithm</i>.RS256, data, rsaSignDataResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#97"><b>97</b>VerifyResult ecVerifyDataResult = ecCryptoClient.VerifyData(<i>SignatureAlgorithm</i>.ES256K, data, ecSignDataResult.Signature);</a>
+</div>
+<div class="rF"><div class="rN">samples\Sample5_SignVerifyAsync.cs (8)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#77"><b>77</b>SignResult rsaSignResult = await rsaCryptoClient.SignAsync(<i>SignatureAlgorithm</i>.RS256, digest);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#80"><b>80</b>SignResult ecSignResult = await ecCryptoClient.SignAsync(<i>SignatureAlgorithm</i>.ES256K, digest);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#84"><b>84</b>VerifyResult rsaVerifyResult = await rsaCryptoClient.VerifyAsync(<i>SignatureAlgorithm</i>.RS256, digest, rsaSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#87"><b>87</b>VerifyResult ecVerifyResult = await ecCryptoClient.VerifyAsync(<i>SignatureAlgorithm</i>.ES256K, digest, ecSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#98"><b>98</b>SignResult rsaSignDataResult = await rsaCryptoClient.SignDataAsync(<i>SignatureAlgorithm</i>.RS256, data);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#101"><b>101</b>SignResult ecSignDataResult = await ecCryptoClient.SignDataAsync(<i>SignatureAlgorithm</i>.ES256K, data);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#105"><b>105</b>VerifyResult rsaVerifyDataResult = await rsaCryptoClient.VerifyDataAsync(<i>SignatureAlgorithm</i>.RS256, data, rsaSignDataResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#108"><b>108</b>VerifyResult ecVerifyDataResult = await ecCryptoClient.VerifyDataAsync(<i>SignatureAlgorithm</i>.ES256K, data, ecSignDataResult.Signature);</a>
+</div>
+<div class="rF"><div class="rN">ThrowingCryptographyProvider.cs (4)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#27"><b>27</b>public SignResult Sign(<i>SignatureAlgorithm</i> algorithm, byte[] digest, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#29"><b>29</b>public Task&lt;SignResult&gt; SignAsync(<i>SignatureAlgorithm</i> algorithm, byte[] digest, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#35"><b>35</b>public VerifyResult Verify(<i>SignatureAlgorithm</i> algorithm, byte[] digest, byte[] signature, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#37"><b>37</b>public Task&lt;VerifyResult&gt; VerifyAsync(<i>SignatureAlgorithm</i> algorithm, byte[] digest, byte[] signature, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+</div>
+</div>
+</body></html>

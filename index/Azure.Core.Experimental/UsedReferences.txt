@@ -1,0 +1,2 @@
+System.Memory.Data
+Azure.Core

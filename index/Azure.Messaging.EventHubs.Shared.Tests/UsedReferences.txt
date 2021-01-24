@@ -1,0 +1,4 @@
+Azure.Messaging.EventHubs
+Azure.Core
+System.ValueTuple
+mscorlib

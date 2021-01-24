@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html><head><title>EncryptionAlgorithm</title><link rel="stylesheet" href="../../styles.css"/><script src="../../scripts.js"></script></head><body onload="ro();">
+<div class="rH">53 references to EncryptionAlgorithm</div><div class="rA">Azure.Security.KeyVault.Keys.Tests (53)</div><div class="rG" id="Azure.Security.KeyVault.Keys.Tests"><div class="rF"><div class="rN">AesCryptographyProviderTests.cs (20)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#142"><b>142</b>public void EncryptDecryptRoundtrips(<i>EncryptionAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#178"><b>178</b>case <i>EncryptionAlgorithm</i>.A128CbcValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#187"><b>187</b>case <i>EncryptionAlgorithm</i>.A192CbcValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#196"><b>196</b>case <i>EncryptionAlgorithm</i>.A256CbcValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#205"><b>205</b>case <i>EncryptionAlgorithm</i>.A128CbcPadValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#214"><b>214</b>case <i>EncryptionAlgorithm</i>.A192CbcPadValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#223"><b>223</b>case <i>EncryptionAlgorithm</i>.A256CbcPadValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#232"><b>232</b>case <i>EncryptionAlgorithm</i>.A128GcmValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#233"><b>233</b>case <i>EncryptionAlgorithm</i>.A192GcmValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#234"><b>234</b>case <i>EncryptionAlgorithm</i>.A256GcmValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#254"><b>254</b>public void InitializesIv(<i>EncryptionAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#285"><b>285</b>yield return <i>EncryptionAlgorithm</i>.A128Cbc;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#286"><b>286</b>yield return <i>EncryptionAlgorithm</i>.A192Cbc;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#287"><b>287</b>yield return <i>EncryptionAlgorithm</i>.A256Cbc;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#289"><b>289</b>yield return <i>EncryptionAlgorithm</i>.A128CbcPad;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#290"><b>290</b>yield return <i>EncryptionAlgorithm</i>.A192CbcPad;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#291"><b>291</b>yield return <i>EncryptionAlgorithm</i>.A256CbcPad;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#295"><b>295</b>yield return <i>EncryptionAlgorithm</i>.A128Gcm;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#296"><b>296</b>yield return <i>EncryptionAlgorithm</i>.A192Gcm;</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/AesCryptographyProviderTests.cs.html#297"><b>297</b>yield return <i>EncryptionAlgorithm</i>.A256Gcm;</a>
+</div>
+<div class="rF"><div class="rN">CryptographyClientLiveTests.cs (8)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#38"><b>38</b>public async Task EncryptDecryptRoundTrip([EnumValues(nameof(<i>EncryptionAlgorithm</i>.Rsa15), nameof(<i>EncryptionAlgorithm</i>.RsaOaep), nameof(<i>EncryptionAlgorithm</i>.RsaOaep256))]<i>EncryptionAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#335"><b>335</b>private async Task&lt;KeyVaultKey&gt; CreateTestKey(<i>EncryptionAlgorithm</i> algorithm)</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#341"><b>341</b>case <i>EncryptionAlgorithm</i>.Rsa15Value:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#342"><b>342</b>case <i>EncryptionAlgorithm</i>.RsaOaepValue:</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#343"><b>343</b>case <i>EncryptionAlgorithm</i>.RsaOaep256Value:</a>
+</div>
+<div class="rF"><div class="rN">CryptographyModelFactoryTests.cs (10)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#14"><b>14</b>Assert.AreEqual(&quot;ciphertext&quot;, Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; CryptographyModelFactory.DecryptOptions(<i>EncryptionAlgorithm</i>.A128Cbc, null)).ParamName);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#20"><b>20</b>DecryptOptions options = CryptographyModelFactory.DecryptOptions(<i>EncryptionAlgorithm</i>.A128Cbc, buffer, null, null);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#22"><b>22</b>Assert.AreEqual(<i>EncryptionAlgorithm</i>.A128Cbc, options.Algorithm);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#33"><b>33</b>DecryptOptions options = CryptographyModelFactory.DecryptOptions(<i>EncryptionAlgorithm</i>.A128Cbc, buffer, buffer, buffer);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#36"><b>36</b>Assert.AreEqual(<i>EncryptionAlgorithm</i>.A128Cbc, options.Algorithm);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#45"><b>45</b>Assert.AreEqual(&quot;plaintext&quot;, Assert.Throws&lt;ArgumentNullException&gt;(() =&gt; CryptographyModelFactory.EncryptOptions(<i>EncryptionAlgorithm</i>.A128Cbc, null)).ParamName);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#51"><b>51</b>EncryptOptions options = CryptographyModelFactory.EncryptOptions(<i>EncryptionAlgorithm</i>.A128Cbc, buffer);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#53"><b>53</b>Assert.AreEqual(<i>EncryptionAlgorithm</i>.A128Cbc, options.Algorithm);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#63"><b>63</b>EncryptOptions options = CryptographyModelFactory.EncryptOptions(<i>EncryptionAlgorithm</i>.A128Cbc, buffer, buffer);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyModelFactoryTests.cs.html#66"><b>66</b>Assert.AreEqual(<i>EncryptionAlgorithm</i>.A128Cbc, options.Algorithm);</a>
+</div>
+<div class="rF"><div class="rN">EncryptOptionsTests.cs (1)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/EncryptOptionsTests.cs.html#72"><b>72</b>public void InitializesIv([EnumValues] <i>EncryptionAlgorithm</i> algorithm)</a>
+</div>
+<div class="rF"><div class="rN">KeysEventSourceTests.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#302"><b>302</b>yield return new TestCaseData(&quot;Decrypt&quot;, null, new Func&lt;CryptographyClient, string, Task&lt;object&gt;&gt;(async (client, algorithm) =&gt; await client.DecryptAsync(algorithm ?? <i>EncryptionAlgorithm</i>.RsaOaep, s_buffer)));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/KeysEventSourceTests.cs.html#310"><b>310</b>yield return new TestCaseData(&quot;Encrypt&quot;, null, new Func&lt;CryptographyClient, string, Task&lt;object&gt;&gt;(async (client, algorithm) =&gt; await client.EncryptAsync(algorithm ?? <i>EncryptionAlgorithm</i>.RsaOaep, s_buffer)));</a>
+</div>
+<div class="rF"><div class="rN">LocalCryptographyClientTests.cs (5)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#105"><b>105</b>EncryptResult encrypted = await client.EncryptAsync(<i>EncryptionAlgorithm</i>.RsaOaep, TestData);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#107"><b>107</b>Assert.ThrowsAsync(new InstanceOfTypeConstraint(typeof(CryptographicException)), async () =&gt; await client.DecryptAsync(<i>EncryptionAlgorithm</i>.RsaOaep, encrypted.Ciphertext));</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#112"><b>112</b>public async Task EncryptDecryptRoundtrip([EnumValues(nameof(<i>EncryptionAlgorithm</i>.Rsa15), nameof(<i>EncryptionAlgorithm</i>.RsaOaep))] <i>EncryptionAlgorithm</i> algorithm)</a>
+</div>
+<div class="rF"><div class="rN">samples\Sample4_EncryptDecrypt.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample4_EncryptDecrypt.cs.html#48"><b>48</b>EncryptResult encryptResult = cryptoClient.Encrypt(<i>EncryptionAlgorithm</i>.RsaOaep, plaintext);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample4_EncryptDecrypt.cs.html#53"><b>53</b>DecryptResult decryptResult = cryptoClient.Decrypt(<i>EncryptionAlgorithm</i>.RsaOaep, encryptResult.Ciphertext);</a>
+</div>
+<div class="rF"><div class="rN">samples\Sample4_EncryptDecryptAsync.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample4_EncryptDecryptAsync.cs.html#50"><b>50</b>EncryptResult encryptResult = await cryptoClient.EncryptAsync(<i>EncryptionAlgorithm</i>.RsaOaep, plaintext);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample4_EncryptDecryptAsync.cs.html#54"><b>54</b>DecryptResult decryptResult = await cryptoClient.DecryptAsync(<i>EncryptionAlgorithm</i>.RsaOaep, encryptResult.Ciphertext);</a>
+</div>
+<div class="rF"><div class="rN">samples\SampleSnippets.cs (3)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/SampleSnippets.cs.html#180"><b>180</b>EncryptResult encryptResult = cryptoClient.Encrypt(<i>EncryptionAlgorithm</i>.RsaOaep, plaintext);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/SampleSnippets.cs.html#183"><b>183</b>DecryptResult decryptResult = cryptoClient.Decrypt(<i>EncryptionAlgorithm</i>.RsaOaep, encryptResult.Ciphertext);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/SampleSnippets.cs.html#366"><b>366</b>EncryptResult encrypted = await cryptoClient.EncryptAsync(<i>EncryptionAlgorithm</i>.RsaOaep256, plaintext);</a>
+</div>
+</div>
+</body></html>

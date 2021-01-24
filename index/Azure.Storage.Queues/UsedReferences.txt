@@ -1,0 +1,4 @@
+System.Memory.Data
+Azure.Core
+Azure.Storage.Common
+netstandard

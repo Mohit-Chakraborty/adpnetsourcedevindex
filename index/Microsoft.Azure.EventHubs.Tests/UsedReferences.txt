@@ -1,0 +1,5 @@
+Microsoft.Azure.EventHubs
+mscorlib
+Microsoft.Azure.EventHubs.ServiceFabricProcessor
+Microsoft.Azure.EventHubs.Processor
+System.ValueTuple

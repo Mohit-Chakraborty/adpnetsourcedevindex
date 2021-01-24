@@ -1,0 +1,7 @@
+Azure.Storage.Blobs
+Azure.Storage.Blobs.ChangeFeed
+Azure.Core
+Azure.Core.TestFramework
+Azure.Storage.Common
+Azure.Identity
+System.ValueTuple

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html><head><title>VerifyResult</title><link rel="stylesheet" href="../../styles.css"/><script src="../../scripts.js"></script></head><body onload="ro();">
+<div class="rH">21 references to VerifyResult</div><div class="rA">Azure.Security.KeyVault.Keys.Tests (21)</div><div class="rG" id="Azure.Security.KeyVault.Keys.Tests"><div class="rF"><div class="rN">CryptographyClientLiveTests.cs (8)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#117"><b>117</b><i>VerifyResult</i> verifyResult = await cryptoClient.VerifyAsync(algorithm, digest, signDataResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#119"><b>119</b><i>VerifyResult</i> verifyDataResult = await cryptoClient.VerifyDataAsync(algorithm, data, signResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#165"><b>165</b><i>VerifyResult</i> verifyResult = await cryptoClient.VerifyAsync(algorithm, digest, signDataResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#167"><b>167</b><i>VerifyResult</i> verifyDataResult = await cryptoClient.VerifyDataAsync(algorithm, dataStream, signResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#217"><b>217</b><i>VerifyResult</i> verifyResult = await remoteClient.VerifyAsync(algorithm, digest, signResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#251"><b>251</b><i>VerifyResult</i> verifyResult = await remoteClient.VerifyAsync(algorithm, digest, signResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#294"><b>294</b><i>VerifyResult</i> verifyResult = await client.VerifyAsync(algorithm, digest, signResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/CryptographyClientLiveTests.cs.html#328"><b>328</b><i>VerifyResult</i> verifyResult = await client.VerifyAsync(algorithm, digest, signResult.Signature);</a>
+</div>
+<div class="rF"><div class="rN">LocalCryptographyClientTests.cs (3)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#182"><b>182</b><i>VerifyResult</i> verified = await client.VerifyAsync(algorithm, digest, signed.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#241"><b>241</b><i>VerifyResult</i> verified = await client.VerifyDataAsync(algorithm, TestData, signed.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/LocalCryptographyClientTests.cs.html#300"><b>300</b><i>VerifyResult</i> verified = await client.VerifyDataAsync(algorithm, TestStream, signed.Signature);</a>
+</div>
+<div class="rF"><div class="rN">samples\Sample5_SignVerify.cs (4)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#78"><b>78</b><i>VerifyResult</i> rsaVerifyResult = rsaCryptoClient.Verify(SignatureAlgorithm.RS256, digest, rsaSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#81"><b>81</b><i>VerifyResult</i> ecVerifyResult = ecCryptoClient.Verify(SignatureAlgorithm.ES256K, digest, ecSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#94"><b>94</b><i>VerifyResult</i> rsaVerifyDataResult = rsaCryptoClient.VerifyData(SignatureAlgorithm.RS256, data, rsaSignDataResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerify.cs.html#97"><b>97</b><i>VerifyResult</i> ecVerifyDataResult = ecCryptoClient.VerifyData(SignatureAlgorithm.ES256K, data, ecSignDataResult.Signature);</a>
+</div>
+<div class="rF"><div class="rN">samples\Sample5_SignVerifyAsync.cs (4)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#84"><b>84</b><i>VerifyResult</i> rsaVerifyResult = await rsaCryptoClient.VerifyAsync(SignatureAlgorithm.RS256, digest, rsaSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#87"><b>87</b><i>VerifyResult</i> ecVerifyResult = await ecCryptoClient.VerifyAsync(SignatureAlgorithm.ES256K, digest, ecSignResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#105"><b>105</b><i>VerifyResult</i> rsaVerifyDataResult = await rsaCryptoClient.VerifyDataAsync(SignatureAlgorithm.RS256, data, rsaSignDataResult.Signature);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/samples/Sample5_SignVerifyAsync.cs.html#108"><b>108</b><i>VerifyResult</i> ecVerifyDataResult = await ecCryptoClient.VerifyDataAsync(SignatureAlgorithm.ES256K, data, ecSignDataResult.Signature);</a>
+</div>
+<div class="rF"><div class="rN">ThrowingCryptographyProvider.cs (2)</div>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#35"><b>35</b>public <i>VerifyResult</i> Verify(SignatureAlgorithm algorithm, byte[] digest, byte[] signature, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+<a href="../../Azure.Security.KeyVault.Keys.Tests/ThrowingCryptographyProvider.cs.html#37"><b>37</b>public Task&lt;<i>VerifyResult</i>&gt; VerifyAsync(SignatureAlgorithm algorithm, byte[] digest, byte[] signature, CancellationToken cancellationToken = default) =&gt; throw new CryptographicException(CRYPT_E_NO_PROVIDER);</a>
+</div>
+</div>
+</body></html>

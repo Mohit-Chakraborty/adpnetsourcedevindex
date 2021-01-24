@@ -1,0 +1,5 @@
+Azure.Core.TestFramework
+Azure.Core
+mscorlib
+System.ValueTuple
+Microsoft.Azure.Core.NewtonsoftJson

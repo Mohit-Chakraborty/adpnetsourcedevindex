@@ -1,0 +1,4 @@
+Azure.Core.TestFramework
+Azure.Identity
+System.ValueTuple
+mscorlib

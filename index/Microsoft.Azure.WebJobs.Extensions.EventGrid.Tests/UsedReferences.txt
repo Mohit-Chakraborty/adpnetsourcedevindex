@@ -1,0 +1,3 @@
+mscorlib
+Microsoft.Azure.WebJobs.Extensions.EventGrid
+Azure.Core.TestFramework

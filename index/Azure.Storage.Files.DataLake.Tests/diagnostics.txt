@@ -1,0 +1,79 @@
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\AssemblyInfo.cs(7,12): error CS0246: The type or namespace name 'LiveParallelizableAttribute' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\AssemblyInfo.cs(7,12): error CS0246: The type or namespace name 'LiveParallelizable' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\ServiceClientTests.cs(78,94): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\ServiceClientTests.cs(99,94): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(123,104): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(123,122): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Core.Pipeline.HttpPipelinePolicy'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(123,138): error CS1503: Argument 3: cannot convert from 'string' to 'Azure.Storage.Files.DataLake.DataLakeClientOptions'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(123,144): error CS1503: Argument 4: cannot convert from 'Azure.Storage.Files.DataLake.DataLakeClientOptions' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(110,97): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(110,115): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\ServiceClientTests.cs(151,81): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(142,104): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(142,122): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Core.Pipeline.HttpPipelinePolicy'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(142,138): error CS1503: Argument 3: cannot convert from 'string' to 'Azure.Storage.Files.DataLake.DataLakeClientOptions'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(142,144): error CS1503: Argument 4: cannot convert from 'Azure.Storage.Files.DataLake.DataLakeClientOptions' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\ServiceClientTests.cs(168,58): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\ServiceClientTests.cs(169,66): error CS0103: The name 'AzureSasCredential' does not exist in the current context
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(143,89): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(143,107): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Core.Pipeline.HttpPipelinePolicy'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(143,123): error CS1503: Argument 3: cannot convert from 'string' to 'Azure.Storage.Files.DataLake.DataLakeClientOptions'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(143,129): error CS1503: Argument 4: cannot convert from 'Azure.Storage.Files.DataLake.DataLakeClientOptions' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(179,83): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(162,89): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(162,107): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Core.Pipeline.HttpPipelinePolicy'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(162,123): error CS1503: Argument 3: cannot convert from 'string' to 'Azure.Storage.Files.DataLake.DataLakeClientOptions'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(162,129): error CS1503: Argument 4: cannot convert from 'Azure.Storage.Files.DataLake.DataLakeClientOptions' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(197,60): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(198,66): error CS0103: The name 'AzureSasCredential' does not exist in the current context
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(182,78): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(200,55): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileClientTests.cs(201,66): error CS0103: The name 'AzureSasCredential' does not exist in the current context
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(137,97): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(137,115): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(102,94): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(102,112): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Core.Pipeline.HttpPipelinePolicy'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(102,128): error CS1503: Argument 3: cannot convert from 'string' to 'Azure.Storage.Files.DataLake.DataLakeClientOptions'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(102,134): error CS1503: Argument 4: cannot convert from 'Azure.Storage.Files.DataLake.DataLakeClientOptions' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(121,94): error CS1503: Argument 1: cannot convert from 'string' to 'System.Uri'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(121,112): error CS1503: Argument 2: cannot convert from 'string' to 'Azure.Core.Pipeline.HttpPipelinePolicy'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(121,128): error CS1503: Argument 3: cannot convert from 'string' to 'Azure.Storage.Files.DataLake.DataLakeClientOptions'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(121,134): error CS1503: Argument 4: cannot convert from 'Azure.Storage.Files.DataLake.DataLakeClientOptions' to 'Azure.Storage.StorageSharedKeyCredential'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(191,84): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(209,61): error CS0246: The type or namespace name 'AzureSasCredential' could not be found (are you missing a using directive or an assembly reference?)
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(210,66): error CS0103: The name 'AzureSasCredential' does not exist in the current context
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(3275,59): error CS7036: There is no argument given that corresponds to the required formal parameter 'permissions' of 'DataLakeDirectoryClient.SetPermissionsAsync(PathPermissions, string, string, DataLakeRequestConditions, CancellationToken)'
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DirectoryClientTests.cs(3281,40): error CS7036: There is no argument given that corresponds to the required formal parameter 'permissions' of 'DataLakeDirectoryClient.SetPermissionsAsync(PathPermissions, string, string, DataLakeRequestConditions, CancellationToken)'
+C:\gh\azure-sdk-for-net\artifacts\obj\Azure.Storage.Files.DataLake.Tests\Debug\net461\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs(3,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\FileSystemClientTests.cs(7,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\artifacts\obj\Azure.Storage.Files.DataLake.Tests\Debug\net461\Azure.Storage.Files.DataLake.Tests.AssemblyInfo.cs(12,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\TenantConfiguration.cs(9,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\RecordedClientRequestIdPolicy.cs(5,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\StorageRecordedTestSanitizer.cs(8,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathAccessControlTestBase.cs(6,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\KeyVaultConfiguration.cs(6,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DataLakeTestBase.cs(10,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\artifacts\obj\Azure.Storage.Files.DataLake.Tests\Debug\net461\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs(2,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\TestProgress.cs(6,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\AssemblyInfo.cs(4,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathClientTests.cs(8,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\StorageRecordedTestSanitizer.cs(9,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\FaultyDownloadPipelinePolicy.cs(7,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\RecordedClientRequestIdPolicy.cs(4,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\RecordedClientRequestIdPolicy.cs(7,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\TestResponseClassifier.cs(4,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DataLakeUriBuilderTests.cs(7,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\StorageRecordedTestSanitizer.cs(7,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\FaultyDownloadPipelinePolicy.cs(8,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\FaultyDownloadPipelinePolicy.cs(6,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathAccessControlTestBase.cs(5,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\KeyVaultConfiguration.cs(5,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\StorageTestBase.cs(6,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\artifacts\obj\Azure.Storage.Files.DataLake.Tests\Debug\net461\Azure.Storage.Files.DataLake.Tests.AssemblyInfo.cs(11,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\PathAccessControlTestBase.cs(4,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\KeyVaultConfiguration.cs(4,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\ServiceClientTests.cs(7,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Files.DataLake\tests\DataLakePartitionedUploaderTests.cs(9,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\TenantConfiguration.cs(5,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\TestResponseClassifier.cs(6,1): hidden CS8019: Unnecessary using directive.
+C:\gh\azure-sdk-for-net\sdk\storage\Azure.Storage.Common\tests\Shared\TenantConfiguration.cs(8,1): hidden CS8019: Unnecessary using directive.
